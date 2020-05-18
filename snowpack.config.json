@@ -1,5 +1,9 @@
 {
   "extends": "@snowpack/app-scripts-preact",
-  "devOptions": {},
-  "installOptions": {}
+  "devOptions": {
+    "bundle": false
+  },
+  "installOptions": {
+    "sourceMap": true
+  }
 }

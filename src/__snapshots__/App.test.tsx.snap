@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.tsx renders correctly 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  to {
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+  }
+}
+
+.emotion-3 {
+  text-align: center;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+}
+
+.emotion-1 {
+  color: #61dafb;
+}
+
+.emotion-0 {
+  height: 40vmin;
+  margin-bottom: 1rem;
+  -webkit-animation: animation-0 infinite 1.6s ease-in-out alternate;
+  animation: animation-0 infinite 1.6s ease-in-out alternate;
+  pointer-events: none;
+}
+
+<div>
+  <div
+    class="emotion-3"
+  >
+    <header
+      class="emotion-2"
+    >
+      <img
+        alt="logo"
+        class="emotion-0"
+        src="logo.png"
+      />
+      <p>
+        Edit 
+        <code>
+          src/App.tsx
+        </code>
+         and save to reload.
+      </p>
+      <a
+        class="emotion-1"
+        href="https://preactjs.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn Preact
+      </a>
+    </header>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "jsdom",
+  "snapshotSerializers": ["jest-emotion"],
+  "collectCoverageFrom": ["src/**/*.tsx", "!src/index.tsx"],
+  "transform": {
+    "^(?!.*\\.(tsx|json)$)": "@snowpack/app-scripts-preact/jest/fileTransform.js"
+  },
+  "setupFiles": ["react-app-polyfill/jsdom"],
+  "setupFilesAfterEnv": ["./jest.setup.tsx"]
+}
